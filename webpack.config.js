@@ -31,7 +31,8 @@ module.exports = {
         root: __dirname,//variable available in node.js by default
         alias: {
             Main: 'app/components/Main.jsx',
-            applicationStyles: 'app/styles/app.scss'
+            applicationStyles: 'app/styles/app.scss',
+            Nav: 'app/components/Nav.jsx'
         },//when updating webpack aliases restart webpack
         extensions: ['', '.js', '.jsx']
     },

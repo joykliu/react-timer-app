@@ -1,3 +1,5 @@
-p {
-    color: #777;
-}
+// ====  V A R I A B L E S ===== //
+@import "base/variables";
+
+// =====  C O M P O N E N T S ===== //
+@import "components/nav"

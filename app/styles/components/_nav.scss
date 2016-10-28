@@ -1,0 +1,9 @@
+.top-bar,
+.top-bar ul {
+    background: $grey;
+    color: $navText;
+}
+
+.menu > li > a {
+    display: inline;
+}
